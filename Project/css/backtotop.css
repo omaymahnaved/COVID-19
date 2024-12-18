@@ -1,0 +1,20 @@
+.btn-lg-square.rounded-circle.back-to-top {
+    background-color:rgba(137, 43, 226, 0.61);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-lg-square.rounded-circle.back-to-top:hover {
+    background-color:blueviolet;
+    transform: scale(1.1); 
+}

@@ -1,0 +1,60 @@
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5); /* Optional: dark background for text readability */
+}
+
+.carousel-caption-content {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.carousel-caption h1 {
+    font-size: 2.5rem; /* Adjust for larger screens */
+}
+
+.carousel-caption p {
+    font-size: 1.25rem; /* Adjust for larger screens */
+}
+
+.carousel-caption-btn {
+    margin-top: 1rem;
+}
+
+@media (max-width: 992px) {
+    .carousel-caption h1 {
+        font-size: 2rem; /* Adjust for medium screens */
+    }
+
+    .carousel-caption p {
+        font-size: 1.1rem; /* Adjust for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 1.5rem; /* Adjust for small screens */
+    }
+
+    .carousel-caption p {
+        font-size: 1rem; /* Adjust for small screens */
+    }
+
+    .carousel-caption-btn {
+        margin-top: 0.5rem;
+    }
+}

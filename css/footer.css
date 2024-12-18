@@ -1,0 +1,24 @@
+/* Style for all links in the footer */
+.site-footer a {
+  color: #8c52ff; /* Change to your desired link color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Style for links on hover */
+.site-footer a:hover {
+  color: black; /* Change to your desired hover color */
+  /* text-decoration: underline; Add underline on hover */
+  letter-spacing: 1px;
+  transition: all 0.2s;
+}
+
+/* Optional: Style for links inside social icons */
+.site-footer .social-icons a {
+  color: #8c52ff; /* Change to your desired social icon color */
+}
+
+.site-footer .social-icons a:hover {
+  color: black; /* Change to your desired hover color */
+  transition: all 0.2s;
+}

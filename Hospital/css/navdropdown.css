@@ -1,0 +1,17 @@
+      /* Change the color of the active dropdown link */
+      .dropdown-item.active {
+        background-color: #c96be694; /* Background color for active item */
+        color: black; /* Text color for active item */
+        font-weight: bold; /* Optionally make the text bold */
+      }
+      
+      .dropdown-item.active:hover {
+        background-color: #8c52ff; /* Hover background color for active item */
+        color: #c96be694; /* Hover text color for active item */
+      }
+      
+      /* Additional styling for better appearance */
+      .navbar-light .dropdown-item:hover {
+        background-color: #c96be662; /* Hover background for all dropdown items */
+        color: black; /* Hover text color for all dropdown items */
+      }

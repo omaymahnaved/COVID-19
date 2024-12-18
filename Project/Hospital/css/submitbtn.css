@@ -1,0 +1,23 @@
+.btn-custom {
+    background-color: #8c52ff;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    width: 50%;
+    transition: all 0.3s ease;
+    border-radius: 30px;
+  }
+  
+  .btn-custom:hover {
+    background-color: #6b3fc9af;
+    color: black;
+    /* transform: scale(1.05); */
+  }
+  
+  /* .btn-custom:active {
+    background-color: #5933a8;
+    transform: scale(1);
+  } */
+  

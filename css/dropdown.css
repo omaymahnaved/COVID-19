@@ -1,0 +1,21 @@
+
+/* Styling the dropdown links */
+
+.nav-item .dropdown-menu .dropdown-item.active {
+    background-color: #c96be665; /* Change to your preferred active color */
+    color: black; /* Text color */
+}
+
+/* Hover effect for dropdown items */
+.nav-item .dropdown-menu .dropdown-item:hover {
+    background-color: #c96be694;
+    /* color: #c96be694; */
+    color: black;
+}
+
+/* Styling for the dropdown toggle link when active */
+.nav-item .nav-link.dropdown-toggle.active {
+    background-color: #c96be694;
+    color: black;
+    /* border-radius: 10px; */
+}

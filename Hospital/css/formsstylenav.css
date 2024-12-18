@@ -1,0 +1,37 @@
+    /* Default link styles */
+    .navbar-nav .nav-link {
+        color: darkblue; /* Change the link color */
+        font-weight: bold; /* Make the text bold */
+        font-size: 16px; /* Set font size */
+        /* padding: 10px 15px; Add padding */
+        padding-right: 2%;
+        /* text-transform: uppercase; Make the text uppercase */
+        border-radius: 10px; /* Optional: round corners */
+        transition: all 0.3s ease; /* Add smooth transition effect */
+        height: 40px;
+
+    }
+
+    /* Link hover effect */
+    .navbar-nav .nav-link:hover {
+        /* color: rgba(128, 0, 128, 0.418); Change color on hover */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.301); /* Add shadow effect */
+    }
+
+    /* Active link styles */
+    .navbar-nav .nav-link.active {
+        color: white; /* Active link color */
+        /* background-color: rgba(146, 0, 146, 0.418); Active link background */
+        background-color: #c96be694; /* Active link background */
+        padding-bottom: 3%;
+        padding-top: 2%;
+        height: 40px;
+    }
+
+    /* Mobile specific styles for navbar links */
+    @media (max-width: 992px) {
+        .navbar-nav .nav-link {
+            font-size: 16px; /* Slightly smaller font size on mobile */
+            padding: 8px 12px; /* Adjust padding on mobile */
+        }
+    }
